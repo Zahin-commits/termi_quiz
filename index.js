@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import axios from "axios";
 import chalk from "chalk";
 import chalkAnimation from 'chalk-animation';

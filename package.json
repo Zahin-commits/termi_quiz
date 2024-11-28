@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zahin-commits/termi_quiz"
+  },
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Zahin",
   "license": "ISC",
-  "description": "",
+  "description": "A CLI tool for playing quiz game in your terminal",
+  "bin": "./index.js",
   "dependencies": {
     "axios": "^1.7.7",
     "chalk": "^5.3.0",
